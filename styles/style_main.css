@@ -1,0 +1,314 @@
+
+@font-face {font-family: andantino_script;
+    src: url(../fonts/andantino_script.ttf) format('truetype');}
+#brand_logo{
+    font-family:'Algerian', arial;
+    color: white;
+}
+
+#background_main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/img_big/nojshvanshtajn_zamok_arhitektura_120645_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    z-index: -1;
+}
+
+#main_menu_list a{
+    color: white;!important;
+    font-size: 18px;
+}
+#main_menu_list a:hover { color: #17A2B8 }
+#login_form span{
+    text-align: center;
+}
+
+#login_form button{
+    font-size: 20px;
+    text-align: center;
+}
+#login_form input{
+    width: 120px;
+    font-size: 16px;
+}
+
+#text_live{
+    display:none;
+    font-size: 55px;
+    text-shadow: 4px 4px 4px gray;
+    margin-left: -8%
+}
+#text_live .new{
+    opacity: 0;
+}
+#text_live span{
+    font-size: 75px;
+    font-family:Gabriola;
+    color: black;
+}
+#ul_partners li{
+    width: 300px;
+    height: 100px;
+}
+#icon :hover{
+    color: #17A2B8;
+}
+#text_live .divOpacity{
+    -webkit-transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -ms-transition: opacity .1s ease-in-out;
+    -o-transition: opacity .1s ease-in-out;
+    transition: opacity .1s ease-in-out;
+    opacity: 1;
+}
+#carousel-inner {
+    box-shadow: 6px 6px 10px gray;
+    border-radius: 8px;
+}
+#carouselExampleIndicators img{
+    width: 100%;
+    height: 100%;
+    border: 2px gray groove;
+    border-radius: 8px;
+
+}
+.view {
+    border: 10px solid #17A2B8;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px black;
+    cursor: default;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 0.5%;
+    margin-bottom: 2%;
+}
+.view .choice_layer,
+.view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    font-family: Raleway, serif;
+    padding: 5px;
+    margin: 10px 0 0 0
+}
+.view p {
+    font-family: Merriweather, serif;
+    font-style: italic;
+    font-size: 14px;
+    position: relative;
+    color: black;
+    padding: 0px 20px 0px;
+    text-align: center
+}
+.view a.link-info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #353B42;
+    color: #17A2B8;
+    font-family: Raleway, serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+.view-choice img {
+    transform: scaleY(1);
+    transition: all .7s ease-in-out;
+}
+.view-choice .choice_layer {
+    background-color: ghostwhite;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+.view-choice h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    transform: scale(0);
+    color: #333;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+.view-choice p {
+    color: #333;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+.view-choice a.link-info {
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+.view-choice:hover img {
+    -webkit-transform: scale(10);
+    transform: scale(10);
+    opacity: 0;
+}
+.view-choice:hover .choice_layer {
+    opacity: 1;
+}
+.view-choice:hover h2,
+.view-choice:hover p,
+.view-choice:hover a.link-info {
+    transform: scale(1);
+    opacity: 1;
+}
+#call_ul img{
+    width:30px;
+    height:30px;
+}
+#call_ul span{
+   font-size: 18px;
+}
+
+#main_menu_list_2 a{
+    color: #17A2B8;
+}
+
+#main_menu_list_2 a:hover { color: white }
+
+#slide{
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px black;
+}
+#tour_photo{
+    width:100%;
+    height:100%;
+}
+#tours_container{
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: lightgray;
+
+}
+#tours_container_k{
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #8e3035;
+    color: whitesmoke;
+
+}
+
+#tours_container_k_ul li{
+    background-color: #8e3035;
+    color: whitesmoke;
+}
+
+#tours_container_eu{
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #3b6a4a;
+    color: whitesmoke;
+
+}
+#tours_container_eu_ul li{
+    background-color: #3b6a4a;
+    color: whitesmoke;
+}
+#tours_container_c{
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #175f6a;
+    color: whitesmoke;
+
+}
+#tours_container_c_ul li{
+    background-color: #175f6a;
+    color: whitesmoke;
+}
+#tours_container_f{
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #4d376a;
+    color: whitesmoke;
+
+}
+#tours_container_f_ul li{
+    background-color: #4d376a;
+    color: whitesmoke;
+}
+#tours_container_li{
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #8e3035;
+
+}
+#tours_container img:hover{
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
+#tours_container img{
+
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+
+}
+
+#photo_container_1{
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+#photo_container_1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -webkit-box-shadow: 13px 11px 16px -5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 13px 11px 16px -5px rgba(0,0,0,0.49);
+    box-shadow: 13px 11px 16px -5px rgba(0,0,0,0.49);
+}
+#photo_container_1 img:hover{
+    -webkit-transform: scale(1.55);
+    -moz-transform: scale(1.55);
+    -o-transform: scale(1.55);
+    -webkit-box-shadow: 1px 2px 0px -200px rgba(0,0,0,0.49);
+    -moz-box-shadow: 1px 2px 0px -200px rgba(0,0,0,0.49);
+    box-shadow: 1px 2px 0px -200px rgba(0,0,0,0.49);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
